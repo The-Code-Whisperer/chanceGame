@@ -23,9 +23,9 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
         var dice2 = Math.floor(Math.random() * 6 + 1);
         // display result
         diceDOM.style.display = 'block';
-        diceDOM.src = 'dice-' + dice + '.jpg';
+        diceDOM.src = 'dice-' + dice + '.png';
         diceDOM2.style.display = 'block';
-        diceDOM2.src = 'dice-' + dice2 + '.jpg';
+        diceDOM2.src = 'dice-' + dice2 + '.png';
         // update the round score if rolled number not 1
         if (dice !== 1 && dice2 !== 1) {
             // add score to scoreround
